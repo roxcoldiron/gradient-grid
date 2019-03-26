@@ -11,3 +11,7 @@ CSS Grid is a great way to layout your website. This project sets up a basic gri
   <li>https://learncssgrid.com/</li>
 </ul>
 
+
+Color gradients in CSS are really fun. I used this tool for making the gradients:
+https://cssgradient.io/
+The website is created by Moe Amaya. Lots of tutorials and other resources are available on the site.
