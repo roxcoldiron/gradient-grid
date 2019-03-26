@@ -1,0 +1,54 @@
+.container {
+display: grid;
+grid-template-columns: repeat(8, 2fr)  ;
+grid-template-rows: repeat(8, 15vw)  ;
+grid-gap: 5px  ;
+
+}
+
+.one {
+  height: 100%;
+  background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(111,191,143,1) 35%);
+  grid-column: 1 / span 8;
+}
+
+.two {
+  height: 100%;
+  background: rgb(14,228,231);
+background: radial-gradient(circle, rgba(14,228,231,1) 0%, rgba(111,160,191,1) 35%);
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 8;
+}
+
+.three {
+  height: 100%;
+  background: rgb(59,14,231);
+background: radial-gradient(circle, rgba(59,14,231,1) 0%, rgba(184,111,191,1) 87%);
+  grid-column: 3  / span 6;
+  grid-row: 2 / span 4;
+}
+
+.four {
+  height: 100%;
+  background: rgb(237,11,241);
+background: radial-gradient(circle, rgba(237,11,241,1) 1%, rgba(234,14,164,1) 45%, rgba(231,17,12,1) 100%);
+  grid-column: 3 / span 2;
+  grid-row: 6 / span 4;
+}
+
+.five {
+  height: 100%;
+  background: rgb(237,11,241);
+background: radial-gradient(circle, rgba(237,11,241,1) 1%, rgba(159,14,234,1) 45%, rgba(12,231,230,1) 100%);
+  grid-column: 5 / span 2;
+  grid-row: 6 / span 4;
+}
+
+.six {
+  height: 100%;
+  background: rgb(241,240,11);
+background: radial-gradient(circle, rgba(241,240,11,1) 1%, rgba(14,234,34,1) 45%, rgba(12,231,230,1) 100%);
+  grid-column: 7 / 9;
+  grid-row: 6 / span 4;
+}
